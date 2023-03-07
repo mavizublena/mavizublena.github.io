@@ -1,0 +1,138 @@
+
+/*Barra de Navegacion*/
+
+.navbar{
+    padding: 1rem;
+    background-color: rgb(207, 128, 173);
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*estilos generales*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: rgb(26, 26, 169);
+}
+
+/*servicios de estetica*/
+
+.servicios-estetica {
+    padding: 40 px
+}
+
+.seccion-titulo{
+    font-size: 1.5rem;
+    font-weight: lighter;
+    padding: 15px 0;
+    font-family: 'Concert One', cursive;
+    align-items:first baseline;
+}
+
+.seccion-clara{
+    color: black;
+    background-color: rgb(181, 230, 173);
+    padding: 50px;
+}
+
+.servicio img {
+     height: 50%;
+     width: 50%;
+     padding: 10 px;
+     border-radius: 10px;
+     
+}
+
+.servicios-estetica-contenedor{
+    padding-top: 60px;
+    margin-bottom: 40px;
+}
+
+.productos-cosmetica-natural {
+    padding: 60 px;
+}
+    
+.seccion-oscura {
+    color: black;
+    background-color: rgb(199, 231, 205);
+    padding: 50px;
+    
+}
+ 
+.productos-cosmetica-natural-contenedor {
+    padding: 60px ;
+    margin-bottom: 60px ;
+}
+ 
+.producto img {
+    height: 50%;
+     width: 50%;
+     padding: 10 px;
+     border-radius: 10px;
+}
+
+.texto-negro{
+    color: black;
+}
+
+
+/* contacto*/
+
+.contacto.contaienr {
+    max-width: 1100px;
+    min-height: 200px;
+    padding: 20px;
+    margin: 40px;
+}
+
+.contacto.rectangulo{
+    margin-top: -5rem;
+    background-color: rgb(49, 49, 122);
+    border-radius: 10px;
+    box-shadow: 0px 1px 4px 1px white;
+}
+.contacto.row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.contacto button {
+    color: rgb(63, 38, 145);
+    font-weight: bold;
+    background-color: transparent;
+    border: 2px solid rgb(70, 58, 139);
+    padding: 1.25 em;
+    margin: 10px;
+    border-radius: 100px;
+}
+
+.contacto button i {
+    color: rgb(53, 41, 41);
+    font-size: 1.3rem;
+}
+
+.formulario {
+    padding: 60px;
+    margin: 60 ;
+    background-color: rgb(242, 215, 243);
+}
+
+
+/*Adaptable (responsivo)*/
+
+@media screen and (max-width:700px) {
+    .navbar-brand {
+        display: none;
+    }
+    
+}
